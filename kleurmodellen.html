@@ -1,22 +1,79 @@
-<!DOCTYPE html> <!--dit is de nomepage van mijn site-->
-<html> <!--dit is het html-element-->
-  <head>
-    <title>Het eerste begin</title>
-    <link rel="stylesheet" type="text/css" href="opmaak.css">
+<!DOCTYPE html>
+<html lang="nl">
+   <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="binairstelsel.html">Binair stelsel</a></li>
+  <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+  <li><a href="PersoonlijkeInformatie">Persoonlijke informatie</a></li>
+  <li><a href="WerkingComputer.html">Werking van de computer</a></li>
+  <li><a href="CompressieTechnieken.html">Compressie technieken</a></li>
+    </ul>
+      <link rel="stylesheet" type="text/css" href="opmaak.css">
     <meta charset="utf-8">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleurmodellen en Resolutie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+        }
+        .nav {
+            margin-bottom: 20px;
+        }
+        .nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-  uitleg over kleurmodellen
+    <h1>Kleurmodellen en Resolutie</h1>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="binairstelsel.html">Binair stelsel</a></li>
-    <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-    <li><a href="PersoonlijkeInformatie.html">Algemene informatie</a></li>
-    <li><a href="WerkingComputer.html">Werking van de computer</a></li>
-  </ul>
+    <div class="section">
+        <h2>Wat zijn Pixels?</h2>
+        <p>
+            Een pixel, of beeldpunt, is het kleinste element van een digitaal beeld. Elke pixel heeft een kleur die wordt bepaald door verschillende kleurmodellen. Hoe meer pixels een afbeelding heeft, hoe hoger de resolutie en hoe scherper het beeld.
+        </p>
+        <img src="pixels.png" alt="Afbeelding van pixels">
+    </div>
 
-<img src="oranje.png" alt="oranje">
-  
+    <div class="section">
+        <h2>Resolutie</h2>
+        <p>
+            Resolutie verwijst naar het aantal pixels in een afbeelding, meestal uitgedrukt in termen van breedte × hoogte (bijvoorbeeld 1920 × 1080). Hogere resolutie betekent meer detail, maar ook grotere bestandsgrootte.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>RGB Kleurmodel</h2>
+        <p>
+            Het RGB (Rood, Groen, Blauw) kleurmodel wordt gebruikt voor schermen zoals monitors, televisies en camera's. Kleuren worden gemaakt door de intensiteit van de drie primaire kleuren te combineren. Elke kleurwaarde kan variëren van 0 tot 255, wat resulteert in meer dan 16 miljoen mogelijke kleuren.
+        </p>
+        <img src="RGB-model.png" alt="RGB kleurmodel">
+    </div>
+
+    <div class="section">
+        <h2>CMY-K Kleurmodel</h2>
+        <p>
+            Het CMY-K (Cyaan, Magenta, Geel en Zwart) kleurmodel wordt gebruikt voor drukwerk. Dit subtractieve model werkt door licht van wit papier te absorberen. De K staat voor zwart, omdat een mengsel van Cyaan, Magenta en Geel in de praktijk geen perfect zwart oplevert.
+        </p>
+        <img src="cmyk-model.png" alt="CMY-K kleurmodel">
+    </div>
 </body>
 </html>
