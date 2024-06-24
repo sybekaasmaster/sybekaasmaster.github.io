@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beeld en Geluid Opslag</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hoe Beeld en Geluid Worden Opgeslagen</h1>
+
+    <div class="section">
+        <h2>Bitmap- versus Vectorafbeeldingen</h2>
+        <p>
+            <strong>Bitmapafbeeldingen</strong> bestaan uit een raster van pixels, waarbij elke pixel een specifieke kleur heeft. Ze zijn ideaal voor foto's en complexe afbeeldingen met veel details. Voorbeelden van bitmapformaten zijn JPEG, PNG en BMP.
+        </p>
+        <p>
+            <strong>Vectorafbeeldingen</strong> daarentegen, bestaan uit geometrische vormen zoals lijnen, cirkels en polygonen. Ze zijn schaalbaar zonder verlies van kwaliteit, wat ze geschikt maakt voor logo's en illustraties. Voorbeelden van vectorformaten zijn SVG en AI.
+        </p>
+        <img src="bitmap-vs-vector.png" alt="Bitmap versus Vectorafbeeldingen">
+    </div>
+
+    <div class="section">
+        <h2>Sampling en Sample Rate</h2>
+        <p>
+            Geluid wordt digitaal opgeslagen door het analoge signaal te sampelen. <strong>Sampling</strong> is het proces waarbij het continue geluidssignaal op regelmatige tijdsintervallen wordt gemeten.
+        </p>
+        <p>
+            De <strong>sample rate</strong> is het aantal keren per seconde dat het geluidssignaal wordt gesampled, uitgedrukt in Hertz (Hz). Een hogere sample rate resulteert in een nauwkeurigere weergave van het originele geluidssignaal. Voor CD-kwaliteit audio is de standaard sample rate 44.1 kHz.
+        </p>
+        <img src="sampling-rate.png" alt="Sampling en Sample Rate">
+    </div>
+
+    <div class="section">
+        <h2>Tekstcompressie</h2>
+        <p>
+            Tekstcompressie vermindert de hoeveelheid opslagruimte die nodig is voor tekstbestanden door redundantie te elimineren en patronen te benutten. Twee veelgebruikte methoden zijn <strong>Huffman-codering</strong> en <strong>Run-Length Encoding (RLE)</strong>.
+        </p>
+        <p>
+            Bij <strong>Huffman-codering</strong> worden frequent voorkomende tekens kortere codes toegewezen, terwijl minder frequent voorkomende tekens langere codes krijgen. Dit zorgt voor efficiënte opslag.
+        </p>
+        <p>
+            <strong>Run-Length Encoding (RLE)</strong> comprimeert door opeenvolgende herhalingen van dezelfde tekens op te slaan als één teken en een telwaarde. Dit is vooral effectief voor bestanden met veel herhalende tekens, zoals eenvoudige grafische afbeeldingen.
+        </p>
+    </div>
+</body>
+</html>
