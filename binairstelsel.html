@@ -1,22 +1,83 @@
-<!DOCTYPE html> <!--dit is de homepage van mijn site-->
-<html> <!--dit is het html-element-->
-  <head>
-<title>Binair stelsel</title>
-<link rel="stylesheet" type="text/css" href="opmaak.css">
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="nl">
+   <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="binairstelsel.html">Binair stelsel</a></li>
+  <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+  <li><a href="PersoonlijkeInformatie">Persoonlijke informatie</a></li>
+  <li><a href="WerkingComputer.html">Werking van de computer</a></li>
+  <li><a href="CompressieTechnieken.html">Compressie technieken</a></li>
+    </ul>
+      <link rel="stylesheet" type="text/css" href="opmaak.css">
+    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uitleg over het Binair Stelsel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+        }
+        .nav {
+            margin-bottom: 20px;
+        }
+        .nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  Uitleg over het binaire stelsel
+    <h1>Het Binair Stelsel</h1>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="binairstelsel.html">Binair stelsel</a></li>
-    <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-    <li><a href="PersoonlijkeInformatie">Algemene informatie</a></li>
-    <li><a href="WerkingComputer.html">Werking van de computer</a></li>
-  <ul>
-  
-  <img src="cheese.png" alt="kaas">
-  
+    <div class="section">
+        <h2>Wat is het Binair Stelsel?</h2>
+        <p>
+            Het binair stelsel, of tweedelig talstelsel, is een getalsysteem dat slechts twee symbolen gebruikt: 0 en 1. Dit is in tegenstelling tot het decimale stelsel dat we dagelijks gebruiken, dat tien symbolen gebruikt (0-9). Elk cijfer in een binair getal wordt een <em>bit</em> genoemd.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Hoe werkt het Binair Stelsel?</h2>
+        <p>
+            In het binaire stelsel vertegenwoordigt elk bit een macht van 2, beginnend bij 2<sup>0</sup> aan de rechterkant. Hier is een voorbeeld van hoe het getal 1011 in het binaire stelsel wordt omgezet naar een decimaal getal:
+        </p>
+        <ul>
+            <li>1 × 2<sup>3</sup> = 8</li>
+            <li>0 × 2<sup>2</sup> = 0</li>
+            <li>1 × 2<sup>1</sup> = 2</li>
+            <li>1 × 2<sup>0</sup> = 1</li>
+        </ul>
+        <p>Dus, 1011 in binair is gelijk aan 8 + 0 + 2 + 1 = 11 in decimaal.</p>
+    </div>
+
+    <div class="section">
+        <h2>Waarom gebruiken computers het Binair Stelsel?</h2>
+        <p>
+            Computers gebruiken het binaire stelsel omdat het eenvoudig is om elektrische signalen te vertegenwoordigen met twee toestanden: aan (1) en uit (0). Dit maakt het gemakkelijk en betrouwbaar om gegevens digitaal op te slaan en te verwerken.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Meer Leren</h2>
+        <p>
+            Wil je meer leren over het binaire stelsel en hoe het wordt gebruikt in computers? Bezoek <a href="https://games.penjee.com/binary-bonanza/" target="_blank">Binary Bonanza</a> voor verdere exploratie en leuke activiteiten om je begrip te verdiepen.
+        </p>
+    </div>
 </body>
-  </html>
+</html>
