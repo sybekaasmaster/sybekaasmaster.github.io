@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="nl">
-   <ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body
+         <ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="binairstelsel.html">Binair stelsel</a></li>
   <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
@@ -13,9 +19,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Mijn Persoonlijke Homepage</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .nav {
+            margin-bottom: 20px;
+        }
+        .nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welkom op mijn Persoonlijke Homepage</h1>
+    <div class="section">
+        <h2>Over Mij</h2>
+        <img src="Cheese.jpg" alt="Profielfoto" class="profile-pic">
+        <p>
+            Hallo! Mijn naam is Sybe en ik woon in Veenendaal. Ik woon samen met mijn ouders en zusje en ik heb geen huisdieren. Ik zit op voetbal wat ik nog steeds graag doe.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Hobby's</h2>
+        <p>
+            In mijn vrije tijd geniet ik van verschillende hobby's, waaronder:
+        </p>
+        <ul>
+            Voetballen, 
+            Gamen met vrienden en 
+            Zwemmen met mijn vrienden (vooral in de zomer)
+        </ul>
+    </div>
+       {
             font-family: Arial, sans-serif;
             display: flex;
             flex-wrap: wrap;
@@ -28,38 +84,49 @@
         h1 {
             width: 100%;
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
         .quadrant {
             width: 50%;
             height: 50%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             box-sizing: border-box;
             padding: 20px;
+            text-align: center;
         }
         .quadrant a {
             text-decoration: none;
             color: #007BFF;
             font-size: 20px;
-            text-align: center;
+            margin-top: 10px;
+        }
+        .quadrant img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <h1>Home</h1>
     <div class="quadrant">
-        <a href="link1.html">Link 1</a>
+        <img src="binair stelsel.jpg" alt="Afbeelding 1">
+        <a href="binairstelsel.html">Binair stelsel</a>
     </div>
     <div class="quadrant">
-        <a href="link2.html">Link 2</a>
+        <img src="kleurmodellen.png" alt="Afbeelding 2">
+        <a href="kleurmodellen.html">Kleurmodellen</a>
     </div>
     <div class="quadrant">
-        <a href="link3.html">Link 3</a>
+        <img src="Computer.jpg" alt="Afbeelding 3">
+        <a href="WerkingComputer.html">Werking van de computer</a>
     </div>
     <div class="quadrant">
-        <a href="link4.html">Link 4</a>
+        <img src="Compressietechnieken.png" alt="Afbeelding 4">
+        <a href="CompressieTechnieken.html">Compressietechnieken</a>
     </div>
 </body>
 </html>
